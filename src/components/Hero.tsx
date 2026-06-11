@@ -38,7 +38,7 @@ export default function Hero() {
               <span key={i} className="inline-block name-underline" style={{ animation: `fadeUp 700ms ease both`, animationDelay: `${i * 45}ms` }}>{ch === ' ' ? '\u00A0' : ch}</span>
             ))}
           </h1>
-          <p className="mt-4 text-lg text-muted">Full Stack Developer · Machine Learning Engineer · Software Engineer</p>
+          <p className="mt-4 text-lg text-muted">Full Stack Developer · AI & Machine Learning Enthusiast · Software Engineer</p>
 
           <p className="mt-8 max-w-2xl text-muted">“I design and build intelligent, scalable digital systems with simplicity, clarity, and precision.”</p>
 
