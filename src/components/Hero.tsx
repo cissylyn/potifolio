@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import profile from '../assets/images/profile.png'
 import { motion } from 'framer-motion'
 
 const Typing: React.FC<{ lines: string[] }> = ({ lines }) => {
@@ -49,9 +50,7 @@ export default function Hero() {
         </motion.div>
 
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }} className="flex-1 flex justify-center md:justify-end">
-          <div className="w-64 h-64 md:w-80 md:h-80 rounded-3xl shadow-lg overflow-hidden border border-accent" style={{ background: 'linear-gradient(180deg, rgba(255,255,255,0.85), rgba(250,248,244,0.9))' }}>
-            <img src="/profile.jpg" alt="Musiimenta" className="w-full h-full object-cover" />
-          </div>
+          <img src={profile} alt="Musiimenta" className="w-64 h-72 md:w-80 md:h-96 object-cover object-top block -mt-3 md:-mt-6" />
         </motion.div>
       </div>
 

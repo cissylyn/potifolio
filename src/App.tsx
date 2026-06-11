@@ -7,12 +7,12 @@ import Experience from './components/Experience'
 import Philosophy from './components/Philosophy'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import ThemeToggle from './components/ThemeToggle'
+// ThemeToggle removed — single light theme
 
 export default function App() {
   return (
     <div className="min-h-screen bg-cream text-[var(--text)]">
-      <ThemeToggle />
+      
       <header className="max-w-6xl mx-auto px-6">
         <Hero />
       </header>
